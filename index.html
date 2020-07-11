@@ -68,7 +68,7 @@ justify-content: flex-end;
 width: 250px;
 height: 245px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-color: rgb(235, 235, 235);
+color: rgb(255, 255, 255);
 text-align: center;
 
 
@@ -101,7 +101,10 @@ img:hover{
     border: solid 1px rgb(1, 1, 1);
 
 }
-@media (max-width: 800px) {
+
+
+
+@media (max-width: 600px) {
 
 .contenido {
 height: auto; 
@@ -124,7 +127,7 @@ width: auto;
 width: auto;
 }
 .menu{
-    height: auto; 
+ height: auto; 
 width: auto;
 
 }
@@ -149,10 +152,10 @@ width: auto;
 
 <nav class="menu">
     <div class="logo"> <img src="logo.png" height="40" alt=""></div> 
-    <div> <a class='vinculo' href="http://">INICIO</a>  
-        <a class='vinculo' href="http://">SERVICIOS</a>  
-        <a class='vinculo' href="http://">MAPA</a>  
-        <a class='vinculo' href="#contacto">CONTACTO</a>  
+    <div> <a class='vinculo' href="index2.html">INICIO</a>  
+        <a class='vinculo' href="index2.html">SERVICIOS</a>  
+        <a class='vinculo' href="index2.html">MAPA</a>  
+        <a class='vinculo' href="index2.html">CONTACTO</a>  
         
         </div>
 </nav>
@@ -189,7 +192,7 @@ width: auto;
                 <input value="Telefono"type="Telefono">
                 <input value="Mail"type="Mail">
                 <input value="Asunto"type="Asunto">
-                <button>Enviar</button>
+                <button onclick="nozenada()">Enviar</button>
             </legend>
                 </form>
             </div>
@@ -208,6 +211,10 @@ width: auto;
 
 </footer>
  
-
+<script>
+    function nozenada() {
+      alert("aaun no apdendi ezto");
+    }
+    </script>
 </body>
 </html>
